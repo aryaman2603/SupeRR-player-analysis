@@ -1,0 +1,16 @@
+[project]
+name = "superr-selector-project"
+version = "0.1.0"
+description = "Situation-adjusted pressure rankings for IPL and T20I, 2022-2026"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+    "python-pptx>=1.0.2",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+]

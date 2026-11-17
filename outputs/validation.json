@@ -1,0 +1,40 @@
+{
+  "split_half": {
+    "batter": {
+      "spearman": 0.283,
+      "reps": 20,
+      "players_per_split": 41
+    },
+    "bowler": {
+      "spearman": 0.386,
+      "reps": 20,
+      "players_per_split": 69
+    }
+  },
+  "mom": [
+    {
+      "role": "batter",
+      "matches": 131,
+      "mean_mom_percentile": 0.805,
+      "share_mom_top_quartile": 0.656
+    },
+    {
+      "role": "bowler",
+      "matches": 178,
+      "mean_mom_percentile": 0.732,
+      "share_mom_top_quartile": 0.573
+    }
+  ],
+  "conventional": [
+    {
+      "role": "batter",
+      "spearman_vs_conventional": 0.399,
+      "n": 63
+    },
+    {
+      "role": "bowler",
+      "spearman_vs_conventional": 0.376,
+      "n": 86
+    }
+  ]
+}
